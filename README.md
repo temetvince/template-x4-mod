@@ -4,7 +4,7 @@ A template for new X4 mods
 **Important!** This assumes you have extracted the X4 cat files to C:\X4
 
 ## Instructions:
-* Run *reference/webserver.bat* to view jobs.html or scriptproperties.html. Requires Python 3.
+* Run *webserver.bat* to view jobs.html or scriptproperties.html. Requires Python 3.
 * Autocomplete in Visual Studio Code requires installing the *XML Language Support by Red Hat* extension.
 * Rename all instances of *mod_name* to the name of your mod.
 * If you're not using aiscripts or mdscripts, then remove the appropriate folder inside *mod_name/* before shipping your mod.
