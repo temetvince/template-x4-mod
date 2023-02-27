@@ -14,3 +14,4 @@ A template for new X4 mods
 ## Helpful Links:
 * X4 Modding Resources: https://forum.egosoft.com/viewtopic.php?t=402382
 * Mission Director Guide: https://egosoft.com:8444/confluence/display/XRWIKI/Mission+Director+Guide
+* Kuertee's Method: https://forum.egosoft.com/viewtopic.php?f=181&t=432098#p4997854
