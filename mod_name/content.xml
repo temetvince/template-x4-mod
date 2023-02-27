@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <content> is the main tag of content.xml. Its attributes give basic information about your mod. All attributes are optional!
+    id:      must be unique among all installed mods. A good way to ensure this is a system like yourAlias_ModName.
+    name:    The display name of the mod_id. If this tag is omitted, the mods folder name will be used.
+    author:  Your name or alias.
+    version: is the mod version. Versions always have two decimal points. So version="110" is displayed as 1.10 
+    date:    should be the release date of the version 
+    save:    ? 
+    sync:    ? 
+    enabled: If set to "true" or "1", the mod is enabled by default. -->
+<content id="mod_id"
+name="Mod Name"
+author="Your Name"
+version="100"
+date="2023-02-27"
+save="false"
+sync="false"
+enabled="true">
+
+<!-- <text> contains the description of the mod.
+    language:       Is a number identical to the numbers you will find in the t/ folders.
+                    Each number represents a language. E.g. 44 is for the english, 49 for the german language. Leaving language blank will display the text in all languages.
+    description:    Is the description text for your mod.
+                    Special characters must be noted as numeric character references. E.g. a linebreak (\n\r) is denoted as &#13;&#10; -->
+<text language=""
+description="Mod Name&#13;&#10;
+&#13;&#10;
+Your mod description text.&#13;&#10;
+Add a bit of detail."/>
+
+<!-- dependency can give information about dependencies on game versions, dlc and other mods.
+    id:         The mod id your mod depends on. Can be taken from the specifics mod content.xml. If no id is provided, the dependency references the base game.
+    version:    The minimum version of the game or the mod
+    maxversion: The maximum version of the game or the mod
+    optional:   "True" If the dependency is optional. E.g. some mods are not hard dependencies, but allow you to offer additional functionality
+    name:       The name of the mod. Is used in the warning message ingame, if the dependency is not optional and not satisfied. -->
+
+<!-- The following example depends on the game version between 5.00 and 5.10, optionally the Cradle of Humanity DLC (any version) and mandatorily SirNukes Mod Support APIs -->
+<dependency version="500" maxversion="510" />
+<dependency id="ego_dlc_terran" optional="true" version="" name="Cradle of Humanity"></dependency>
+<dependency id="ws_2042901274" optional="false" name="SirNukes Mod Support APIs"></dependency>
+</content>
