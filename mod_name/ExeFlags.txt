@@ -1,0 +1,2 @@
+Run game in background: -nosoundthrottle -nocputhrottle
+Debug: -debug all -logfile debuglog.txt
