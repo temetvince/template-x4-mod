@@ -10,6 +10,11 @@ A template for new X4 mods
 * If you're not using aiscripts or mdscripts, then remove the appropriate folder inside *mod_name/* before shipping your mod.
 * Keep all file names lowercase to ensure compatibility with Linux and Mac.
 
+## Exe Flags:
+* Run game in background: -nosoundthrottle -nocputhrottle
+* Debug All: -debug all -logfile debuglog.txt
+* Debug Scripts: -debug scripts -logfile debuglog.txt
+* Skip intro: -skipintro
 
 ## Helpful Links:
 * X4 Modding Resources: https://forum.egosoft.com/viewtopic.php?t=402382
