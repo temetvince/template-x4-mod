@@ -17,6 +17,6 @@ A template for new X4 mods
 * Skip intro: -skipintro
 
 ## Helpful Links
-* X4 Modding Resources: https://forum.egosoft.com/viewtopic.php?t=402382
-* Mission Director Guide: https://egosoft.com:8444/confluence/display/XRWIKI/Mission+Director+Guide
-* Kuertee's Method: https://forum.egosoft.com/viewtopic.php?f=181&t=432098#p4997854
+* [X4 Modding Resources](https://forum.egosoft.com/viewtopic.php?t=402382)
+* [Mission Director Guide](https://wiki.egosoft.com:1337/X%20Rebirth%20Wiki/Modding%20support/Mission%20Director%20Guide/)
+* [Kuertee's Method](https://forum.egosoft.com/viewtopic.php?f=181&t=432098#p4997854)
